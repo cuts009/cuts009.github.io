@@ -13,17 +13,40 @@ margin: 30px auto;
 padding: 30px;
 }
 
+.headerLink{
+background-color: #3d898d;
+color: #2f404d;
+padding: 5px;
+border-radius: 5px
+}
+
+.headerLinkCurrent{
+background-color: #85ebd9;
+color: #2f404d;
+padding: 5px;
+border-radius: 5px
+}
+
+.headerLink:hover{
+background-color: #85ebd9;
+}
+
 body{
 background-color: #B0ACB0;
 font-family: sans-serif;
 color: #2F404D;
+text-align: center;
 }
 
-table {
+table{
 margin: 0 auto;
 }
 
 img{
 max-width: 640px;
 height: auto;
+}
+
+p{
+text-align: left;
 }
