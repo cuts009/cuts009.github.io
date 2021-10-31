@@ -1,19 +1,52 @@
 <!doctype html>
 
 <!--
-Last Edited: 29 October 2021
+Last Edited: 30 October 2021
 Programmer: Cutter Love
-Description: A significant amount of CSS applied. Added link to first Blog post.
+Description: 
 -->
 
 <html>
 	<head>
 		<title>Cutter Love</title>
 		
+		<link rel="shortcut icon" href="https://raw.githubusercontent.com/cuts009/cuts009.github.io/main/personalLogo1.png" type="image/x-icon" />
+		
 		<link rel="stylesheet" href="style.css">
 		
-		<style></style>
+		<style>
+			.miniGallery{
+			background-color: #E2DDDF;
+			border-radius: 15px;
+			height: 240px;
+			width: 160px;
+			margin: 15px auto;
+			padding: 15px;
+			display: inline-table;
+			}
+			
+			.miniGallery:hover{
+			background-color: #85ebd9;
+			}
+			
+			.miniGallery img{
+			max-width: 160px;
+			}
+			
+			.blogWrapper{
+			background-color: #E2DDDF;
+			border-radius: 30px;
+			min-width: 160px;
+			max-width: 960px;
+			margin: 30px auto;
+			padding: 30px;
+			}
+			
+			.blogWrapper:hover{
+			background-color: #85ebd9;
+			}
 
+		</style>
 	</head>
 	
 	<body>
@@ -68,34 +101,82 @@ Description: A significant amount of CSS applied. Added link to first Blog post.
 		</header>
 		
 		<div class="wrapper">
-			<table>
-				<tr>
-					<td>
-						<h1>A Brief Bio</h1>
+			<h1>A Brief Bio</h1>
+			
+			<img src="https://raw.githubusercontent.com/cuts009/cuts009.github.io/main/13268326_114756458942493_6131088509386438970_o.jpg" style="width: 160px;margin: 0 60px;float: right;">
+			
+			<p> Cutter Love is a Non-Commissioned Officer in the United States
+			Space Force (USSF). His expertise has been cyber security since 2018 and is
+			pursuing educational skills relating to penetration testing. He is projected to 
+			graduate with a Bachelor of Science in Computer Programming Technology in December
+			2021. He later plans on appling to graduate school to pursue of Masters of Engineering
+			in Software Engineering.<br><br>
 							
-						<p>I am Cutter Love, I am a Non-Commissioned Officer in the United States
-						Space Force (USSF). My expertise has been cyber security since 2018 and I am
-						pursuing educational skills relating to penetration testing. I am projected to 
-						graduate with a Bachelor of Science in Computer Programing Technology in December
-						2021. I later plan on appling to graduate school to pursue of Masters of Engineering
-						in Software Engineering.
-						</p>
-							
-						<p>I am married and have a daughter. My favorite hobbies include hiking,
-						snowboarding, and building computers. I also play a lot of D&D, I enjoy 
-						being a Forever DM, but I also enjoy playing when I have the oportunity. 
-						</p>
-					</td>
-					
-					<td>
-						<img src="https://raw.githubusercontent.com/cuts009/cuts009.github.io/main/13268326_114756458942493_6131088509386438970_o.jpg" style="width: 320px;">
-					</td>
-				</tr>
-			</table>
+			He is married and has a daughter. His favorite hobbies include hiking,
+			snowboarding, and building computers. He also plays a lot of D&D, enjoying
+			being a Forever DM, but does also enjoy playing when given the oportunity.</p>
+						
+			<a href="https://cuts009.github.io/aboutme.html">More About Me</a>
+						
 		</div>
 		
-		<h2>Blog Post(s):</h2>
-		<a href="https://cuts009.github.io/blog.html">Breakfast Burrito Tutorial</a></li>
+		<div class="wrapper" style="display: inline-table;">
+			<h2 style="text-align: left;">Education</h2>
+				
+			<ul style="text-align: left;">
+				<li>(Proj. Dec 2021) Southwestern College - Computer Programming Technology B.S.</li>
+				<li>(Grad. 2019) Community College of the Air Force - Information Technology A.S.</li>
+			</ul>
+
+			
+			<h2 style="text-align: left;">Coding Proficiencies</h2>
+				
+			<ul style="text-align: left;">
+				<li>Java</li>
+				<li>Python</li>
+				<li>HTML/CSS</li>
+				<li>SQL (MySQL)</li>
+			</ul>
+			
+			<h2 style="text-align: left;">Professional Certs</h2>
+				
+			<ul style="text-align: left;">
+				<li>(Expire 2024) CompTIA - Security+</li>
+				<li>(Proj. Dec 2021) Southwestern College - Cybercrime</li>
+			</ul>
+
+			<a href="https://cuts009.github.io/portfolio.html">More About My Portfolio<a>
+		</div>
+
+		<div class="wrapper" style="display: inline-table;">
+			<h2 style="text-align: left;">Graphic Design Gallery</h2>
+			
+			<a href="https://cuts009.github.io/gallery.html"><div class="miniGallery">
+				<img src="https://i.imgur.com/Kyvqm4X.png">
+				<h3 style="margin: 0 auto;">"Skull and Bone"</h3>
+			</div></a>
+			
+			<a href="https://cuts009.github.io/gallery.html"><div class="miniGallery">
+				<img src="https://github.com/cuts009/cuts009.github.io/blob/main/SunflowerCross_Jayda_v2.png?raw=true">
+				<h3 style="margin: 0 auto;">"Sunflower/Cross Logo"</h3>
+			</div></a>
+
+			<br>
+			
+			<a href="https://cuts009.github.io/gallery.html">More In Gallery<a>
+		</div>
+
+		<div class="wrapper">
+			<h2>Blog</h2>
+			
+			<a href="https://cuts009.github.io/blog.html"><div class="blogWrapper">
+				<img src="https://raw.githubusercontent.com/cuts009/cuts009.github.io/main/food-1090619_960_720.jpg" style="width: 160px; margin: 0 60px">
+
+				<h3>Breakfast Burrito Tutorial</h3>
+			</div></a>
+			
+			<a href="https://cuts009.github.io/blog.html">Additional Blog Posts<a>
+		</div>
 		
 		<footer>
 			<div class="header">
